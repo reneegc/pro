@@ -1,3 +1,55 @@
-h1{
-    color: blueviolet;
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.globalglobal{
+    max-width: 1440px;
+    padding: 0 20px!important;
+    margin: 0 auto;
+}
+.navbar-local{
+    background-color: aqua;
+}
+.carousel-item{
+    overflow: hidden;
+    max-height: 300px;
+}
+.d-call{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+
+.title-principal{
+    padding-top: 1rem;
+    max-width: 40%;
+    color: aqua;
+    font-size: 2.5rem;
+}
+.overflow{
+    min-width: 100%;
+    height: 100%;
+    background:linear-gradient(90deg, rgba(79,163,150,1) 0%, rgba(0, 0, 0, 0.294) 0%, rgba(0, 0, 0, 0.27) 47%, rgba(0, 0, 0, 0.261) 99%);
+    position: absolute;
+    z-index: 5;
+}
+#carousel-control-prev,
+#carousel-control-next{
+    z-index: 15;
+}
+.carousel-inner{
+    max-height: 300px;
+}
+
+#separation{
+    margin-top: 1rem;
+    color: aqua;
+    margin-left: 10%;
+}
+
+
+
+@media (max-width: 480px){
+    .title-principal{
+        max-width: 60%;
+    }
 }
